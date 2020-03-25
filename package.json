@@ -9,6 +9,17 @@
     "test": "jest",
     "watchTest": "jest --watch"
   },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test"
+    }
+  },
   "dependencies": {
     "gridsome": "^0.7.0"
   },
@@ -26,7 +37,9 @@
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-testing-library": "^2.2.3",
     "eslint-plugin-vue": "^6.2.2",
+    "husky": "^4.2.3",
     "jest": "^25.1.0",
+    "lint-staged": "^10.0.9",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "vue-eslint-parser": "^7.0.0",
