@@ -9,11 +9,7 @@
 
     <h1>Hello, world!</h1>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi,
-      eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores
-      inventore iste reprehenderit maxime! Iusto.
-    </p>
+    <LoremIpsum />
 
     <p class="home-links">
       <a
@@ -31,9 +27,14 @@
 </template>
 
 <script>
+import LoremIpsum from '../components/LoremIpsum.vue';
+
 export default {
   metaInfo: {
     title: 'Hello, world!',
+  },
+  components: {
+    LoremIpsum,
   },
 };
 </script>
