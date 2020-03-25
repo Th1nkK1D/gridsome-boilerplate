@@ -1,14 +1,20 @@
-# Default starter for Gridsome
+# My Favorite Gridsome Boilerplate
 
-This is the project you get when you run `gridsome create new-project`.
-
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## What's included
+1. Gridsome
+   - [Gridsome](https://gridsome.org) default template
+   - Scss/Sass support with node-sass
+2. Testing Library
+   - [Vue Testing Library](http://testing-library.com/vue)
+   - [Jest](https://jestjs.io)
+   - [jest-dom](https://github.com/testing-library/jest-dom)
+3. Eslint
+   - [Airbnb base](github.com/airbnb/javascript)
+   - [Vue](https://github.com/vuejs/eslint-plugin-vue)
+   - [Gridsome](https://github.com/gridsome/eslint-plugin-gridsome)
+   - [Jest](https://github.com/jest-community/eslint-plugin-jest)
+   - [Testing Library](https://github.com/testing-library/eslint-plugin-testing-library)
+4. Git hooks
+   - [Husky](https://github.com/typicode/husky)
+   - [lint-staged](https://github.com/okonet/lint-staged)
+   - config: pre-commit lint + pre-push test
