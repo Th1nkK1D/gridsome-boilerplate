@@ -2,7 +2,7 @@
 to: src/components/<%= h.changeCase.pascal(name) %>/<%= h.changeCase.pascal(name) %>.vue
 ---
 <template>
-  <div class="<%= h.changeCase.kebab(name) %>">
+  <div>
     <%= h.changeCase.lower(name) %>
   </div>
 </template>
@@ -14,7 +14,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .<%= h.changeCase.kebab(name) %> {
 
-  }
 </style>

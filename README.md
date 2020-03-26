@@ -19,4 +19,4 @@
    - [lint-staged](https://github.com/okonet/lint-staged)
    - config: pre-commit lint + pre-push test
 5. Generator
-   - [Hygen](http://www.hygen.io) for component
+   - [Hygen](http://www.hygen.io) for component and page
