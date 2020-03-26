@@ -3,11 +3,12 @@
   "private": true,
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop",
+    "dev": "gridsome develop",
     "explore": "gridsome explore",
     "lint": "eslint src/**/*.{js,vue}",
     "test": "jest",
-    "watchTest": "jest --watch"
+    "watchTest": "jest --watch",
+    "gen": "hygen"
   },
   "lint-staged": {
     "src/**/*.{js,vue}": [
@@ -38,6 +39,7 @@
     "eslint-plugin-testing-library": "^2.2.3",
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.2.3",
+    "hygen": "^5.0.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.9",
     "node-sass": "^4.13.1",

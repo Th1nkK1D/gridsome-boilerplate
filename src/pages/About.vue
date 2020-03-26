@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import LoremIpsum from '../components/LoremIpsum.vue';
+import LoremIpsum from '../components/LoremIpsum/LoremIpsum.vue';
 
 export default {
   metaInfo: {
